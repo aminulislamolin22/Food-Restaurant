@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.button {
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+}
+
+#banner {
+    height: 650px;
+    background-image: linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-subtitle {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: center;
+    width: 750px;
+    margin-bottom: 14px;
+    opacity: 0.8;
+}
+
+.banner-header {
+    width: 750px;
+    color: rgb(255, 255, 255);
+    font-size: 54px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner-content {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+    width: 750px;
+    opacity: 0.7;
+    margin-bottom: 28px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+#Card-container {
+    width: 950px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.card-header {
+    width: 450px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.card-header>p {
+    color: rgb(16, 16, 16);
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.card-header>h1 {
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.card-box {
+    width: 300px;
+}
+
+.card-box img {
+    width: 300px;
+    margin: 20px 0 15px 0;
+}
+
+.sub-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-btn {
+    text-align: center;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    color: rgb(16, 16, 16);
+    font-size: 16px;
+}
+
+.card-box h2 {
+    color: rgb(16, 16, 16);
+    font-size: 30px;
+    text-align: center;
+}
+
+.card-box p {
+    color: rgb(16, 16, 16);
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+
+#about-us{
+    display: flex;
+}
+
+.about-us-text-container{
+    
+}
