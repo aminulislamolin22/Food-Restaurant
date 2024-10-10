@@ -135,7 +135,6 @@
 
 .about-us-text-container>h1 {
     margin: 90px 75px 20px 75px;
-    width: 570px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,4 +171,10 @@
 
 .social-media-img {
     text-align: center;
+}
+
+#social{
+    padding: 25px;
+    background-image: url(../assets/social-bg.png);
+    /* opacity: 0.1; */
 }
