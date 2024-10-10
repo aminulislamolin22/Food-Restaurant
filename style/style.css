@@ -79,11 +79,12 @@
     text-align: center;
 }
 
-.card{
+.card {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
 }
+
 .card-box {
     width: 300px;
 }
@@ -123,10 +124,52 @@
     margin-top: 10px;
 }
 
-#about-us{
+#about-us {
     display: flex;
+    background: rgb(255, 255, 255);
 }
 
-.about-us-text-container{
-    
+.about-us-img>img {
+    width: 960px;
+}
+
+.about-us-text-container>h1 {
+    margin: 90px 75px 20px 75px;
+    width: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(16, 16, 16);
+    font-size: 32px;
+    text-align: center;
+}
+
+.about-us-text-container p {
+    margin-bottom: 30px;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.social-media {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 32px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 50px;
+}
+
+.about-us-text-container img {
+    height: 30px;
+    width: 30px;
+    background: linear-gradient(180.00deg, rgb(0, 178, 255) -0.911%, rgb(0, 106, 255) 104.264%);
+    margin: 20px;
+}
+
+.social-media-img {
+    text-align: center;
 }
